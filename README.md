@@ -7,7 +7,7 @@ The inspiration for this project is based on an the question... "What if there h
 
 
 ## Files:
-- Please navigate to branch `release-v1`
+- Please navigate to branch `release-v1`for the most up to date project files.
 - Netview.zip (static html/css/s files)
 - NetviewService.zip (files for an express server)
 - wireframes.zip (a few screenshots of the wireframing planning stages for the design)
