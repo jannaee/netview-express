@@ -9,19 +9,20 @@ The inspiration for this project is based on a few questions... "What if there h
 #### Clone Repo with this command
 1. `git clone --single-branch --branch ibm-master https://github.com/jannaee/Netview-express.git`
 2. cd into `netview-express`
-3. Run `npm start` the app is now listening on port 3000
+3. Run `npm start`, the app is now listening on port 3000
 4. Navigate to `http://localhost:3000/` in your browser
 
 
-##TO DO:
+## MY PERSONAL TO DO:
 
 I think of web development much like painting or sculpting. Your work is never really finished. There are a few items that I was not able to complete or add to this project. I will continue to develop this application because it was just way too fun!
 
-- Data for Episodes has been fetched, however I still need to render it onto the final table.
-- Incorporate service workers for offline use
-- Clean up the design for the drop down menus
-- Restructure work for optimal semantics
-- Rebuild in with Aframe - 3D framework
+[ ] Data for Episodes has been fetched, however I still need to render it onto the final table.
+[ ] Incorporate service workers for offline use
+[ ] Clean up the design for the drop down menus
+[ ] Restructure work for optimal semantics
+[ ] Rebuild in with Aframe - 3D framework
+[ ] Sync up to Netlify
 
 
 ##Closing
