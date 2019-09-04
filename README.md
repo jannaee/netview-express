@@ -1,28 +1,16 @@
-# Netview w/Express
+# Netview built with Express.js
 Welcome to the future - year 1985
 
 
 ## Intro and explaination of my project files
 The inspiration for this project is based on a few questions... "What if there had been an alternate reality set in the year 1985. What would a browser look like if it had been designed in the 80s yet leveraged modern web techology?" I began researching the history and evolution of computer UI designs and I decided to create an application that looked like MS-DOS Windows version 1.0 - 2.0. I wanted to make my `web browser` to look like a system from the 80s yet capable of handling fancy things like responsive design.
 
-
-## Files:
-- Please navigate to branch `release-v1`for the most up to date project files.
-- Netview.zip (static html/css/s files)
-- NetviewService.zip (files for an express server)
-- wireframes.zip (a few screenshots of the wireframing planning stages for the design)
-
-
-
 ## Getting Started:
-Apologies for the crude way this is set up, it was my first time setting up an express service from scratch.
-
-1. Unzip both the NetViewService.zip and Netview.zip and run `npm install` for both
-  (They will should sit as siblings to one another in a directory)
-2. Navigate to your NetViewService directory
+#### Clone Repo with this command
+1. `git clone --single-branch --branch ibm-master https://github.com/jannaee/Netview-express.git`
+2. cd into `netview-express`
 3. Run `npm start` the app is now listening on port 3000
-4. See Netview the web browser of 1985 - `http://localhost:3000/`
-
+4. Navigate to `http://localhost:3000/` in your browser
 
 
 ##TO DO:
