@@ -1,0 +1,127 @@
+{
+    "heading": "Stranger Things in RTP",
+    "description": "The Duffer Brothers, born and raised in Durham, drop quite a few Durham-area references in the Emmy-winning hit sci-fi series 'Stranger Things' that they write, direct and produce.",
+    "snippets": [
+        "It's where Cornwallis and Kerley meet. - Hopper",
+        "Described as 'A love letter to the ’80s classics that captivated a generation,' \"Stranger Things\" is set in 1983 in Indiana, \"where a young boy vanishes into thin air. As friends, family and local police search for answers, they are drawn into an extraordinary mystery involving top-secret government experiments, terrifying supernatural forces and one very strange little girl.\"",
+        "Despite the fact that none of the series was filmed in Durham or North Carolina (it was filmed in Georgia), a ton of references to the region are hidden in the show."
+    ],
+    "locations" : [
+        "Kerley Road, Durham",
+        "Loch Ora",
+        "Eno River",
+        "Forest Hills Park",
+        "Jordan Lake"
+    ],
+    "video-embed": "https://www.newsobserver.com/news/local/article182498126.html/video-embed",
+    "quote": {
+        "text": "We have Mirkwood which is, of course, at the intersection of Cornwallis and Kerley, which is really close to where we grew up",
+        "author": "Matt Duffer"
+    },
+    "gallery": [
+        {
+            "src": "https://vignette.wikia.nocookie.net/strangerthings8338/images/6/6b/The_Vanishing_of_Will_Byers_S01-E01_SS_005.png/revision/latest/scale-to-width-down/620",
+            "text": "Intersection of Cornwallis and Kerley"
+        },
+        {
+            "src": "https://www.newsobserver.com/news/local/rjhbpb/picture182497786/alternates/FREE_768/IMG_DISPLAY-ST_201-202_U_2_1_C9CM2NMI_L350297312",
+            "text": "Trick-or-treating on Loch Nora"
+        },
+        {
+            "src": "https://nationalpostcom.files.wordpress.com/2017/11/st5.jpg?quality=80&strip=all&w=780&zoom=1",
+            "reference": "https://nationalpost.com/entertainment/television/inside-the-upside-down-the-life-of-will-byers-continues-to-spiral-in-episode-5-of-stranger-things-2",
+            "text": "Drawings on the wall between Eno river and Jordan Lake"
+        },
+        {
+            "src": "https://vignette.wikia.nocookie.net/strangerthings8338/images/1/1d/ST-Hawkins-Map.png",
+            "text": "Map of Hawkins"
+        }
+    ],
+    "episode-list": [
+        {
+            "season": 2,
+            "name": "Chapter Nine: The Gate",
+            "rating": 9.4
+        },
+        {
+            "season": 2,
+            "name": "Chapter Eight: The Mind Flayer",
+            "rating": 9.3
+        },
+        {
+            "season": 1,
+            "name": "Chapter Eight: The Upside Down",
+            "rating": 9.3
+        },
+        {
+            "season": 2,
+            "name": "Chapter Six: The Spy",
+            "rating": 9.2
+        },
+        {
+            "season": 1,
+            "name": "Chapter Seven: The Bathtub",
+            "rating": 9.1
+        },
+        {
+            "season": 2,
+            "name": "Chapter Five: Dig Dug",
+            "rating": 8.9
+        },
+        {
+            "season": 1,
+            "name": "Chapter Three: Holly, Jolly",
+            "rating": 8.9
+        },
+        {
+            "season": 1,
+            "name": "Chapter Four: The Body",
+            "rating": 8.9
+        },
+        {
+            "season": 1,
+            "name": "Chapter Six: The Monster",
+            "rating": 8.8
+        },
+        {
+            "season": 2,
+            "name": "Chapter Four: Will the Wise",
+            "rating": 8.7
+        },
+        {
+            "season": 2,
+            "name": "Chapter Three: The Pollywog",
+            "rating": 8.7
+        },
+        {
+            "season": 1,
+            "name": "Chapter Five: The Flea and the Acrobat",
+            "rating": 8.7
+        },
+        {
+            "season": 1,
+            "name": "Chapter One: The Vanishing of Will Byers",
+            "rating": 8.6
+        },
+        {
+            "season": 2,
+            "name": "Chapter Two: Trick or Treat, Freak",
+            "rating": 8.5
+        },
+        {
+            "season": 1,
+            "name": "Chapter Two: The Weirdo on Maple Street",
+            "rating": 8.5
+        },
+        {
+            "season": 2,
+            "name": "Chapter One: MADMAX",
+            "rating": 8.4
+        },
+        {
+            "season": 2,
+            "name": "Chapter Seven: The Lost Sister",
+            "rating": 6.1
+        }
+    ]
+}
