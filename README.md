@@ -17,7 +17,7 @@ Netview is a fictional web browser like design. The inspiration for this project
 
 I think of web development much like painting or sculpting. Your work is never really finished. There are a few items that I was not able to complete or add to this project. I will continue to develop this application because it was just way too fun!
 
-[ ] Data for Episodes has been fetched, however I still need to render it onto the final table.
+[_] Data for Episodes has been fetched, however I still need to render it onto the final table.
 [ ] Incorporate service workers for offline use
 [ ] Clean up the design for the drop down menus
 [ ] Restructure work for optimal semantics
@@ -25,5 +25,5 @@ I think of web development much like painting or sculpting. Your work is never r
 [ ] Sync up to Netlify
 
 
-##Closing
+## Closing remarks
 Thank you for allowing me the chance to work on this project and also for having such a fun theme to work with. I may have put in a few more than 6 hours, but it was an absolute pleasure. Please feel free to reach out to me at jannaee@gmail.com or 904.994.5220.
