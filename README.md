@@ -1,16 +1,16 @@
 # Netview Web Browser 1.0
-Welcome to the future - year 1985
+Welcome to the future - year 1985. Ask yourself, what if we lived in a time close to the year 1985? And in this reality web technology advanced further than the designs of the most advance UIs of the time?
 
 
 ## What is Netview Web Browser?
-Netview is a fictional web browser like design. The inspiration for this project is based on a few questions... "What if there had been an alternate reality set in the year 1985. What would a browser look like if it had been designed in the 80s yet leveraged modern web techology?" I began researching the history and evolution of computer UI designs and I decided to create an application that looked like MS-DOS Windows version 1.0 - 2.0. I wanted to make my `web browser` to look like a system from the 80s yet capable of handling fancy things like responsive design.
+Netview is a concept web browser inspired from the questions above. I imagined there could be an intersesting marriage between 80s design and modern web techology. So, I started researching the history and evolution of UI designs and I decided to create an application that looked like MS-DOS Windows version 1.0ish. I wanted to make my 'web browser' to look like a system from the 80s yet capable of handling fancy things - like responsive design.
 
 ## Getting Started:
 #### Clone Repo with this command
 1. `git clone --single-branch --branch ibm-master https://github.com/jannaee/Netview-express.git`
 2. cd into `netview-express`
-3. Run `npm start`, the app is now listening on port 3000
-4. Navigate to `http://localhost:3000/` in your browser
+3. Run `npm start`, the app is now listening on port 3000 (Make sure you are not running anything on port 3000)
+4. Navigate to `http://localhost:3000/`in your browser, and experience the future.
 
 ## Files
 I have included a directory called wireframes to show some of the design and process behind developing this web application.
