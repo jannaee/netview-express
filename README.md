@@ -2,7 +2,7 @@
 Welcome to the future - year 1985
 
 
-##What is Netview Web Browser?
+## What is Netview Web Browser?
 Netview is a fictional web browser like design. The inspiration for this project is based on a few questions... "What if there had been an alternate reality set in the year 1985. What would a browser look like if it had been designed in the 80s yet leveraged modern web techology?" I began researching the history and evolution of computer UI designs and I decided to create an application that looked like MS-DOS Windows version 1.0 - 2.0. I wanted to make my `web browser` to look like a system from the 80s yet capable of handling fancy things like responsive design.
 
 ## Getting Started:
