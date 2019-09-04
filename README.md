@@ -12,9 +12,10 @@ Netview is a fictional web browser like design. The inspiration for this project
 3. Run `npm start`, the app is now listening on port 3000
 4. Navigate to `http://localhost:3000/` in your browser
 
+## Files
+I have included a directory called wireframes to show some of the design and process behind developing this web application.
 
-## MY PERSONAL TO DO:
-
+## My To Dos
 I think of web development much like painting or sculpting. Your work is never really finished. There are a few items that I was not able to complete or add to this project. I will continue to develop this application because it was just way too fun!
 
 [_] Data for Episodes has been fetched, however I still need to render it onto the final table.
