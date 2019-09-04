@@ -1,0 +1,8 @@
+{
+    "hero":{"title": "NETVIEW WEB BROWSER v1.0","mainNavigation": ["Inspiration","Gallery","Episodes"]},
+    "inspiration":{"title": "SHOW INSPIRATION",
+        "subheading": "Notepad - DID_YOU_KNOW.TXT",
+        "description": "DID YOU KNOW? Stranger things was largely based on actual locations in Durham North Carolina. Select from the list above to see where in Durham this location was inspired from."},
+    "gallerypanel":{"title": "GALLERY"},
+    "episodespanel":{"title": "EPISODES"}
+}
