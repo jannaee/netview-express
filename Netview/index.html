@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netview | Welcome to the future.</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css@2.2.0/css/nes.min.css" rel="stylesheet" />
+    <link href="styles/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <!-- Contact Modal -->
+                <div class="column column-10">
+                    <!-- Dark dialog -->
+                    <section>
+                        <button type="button" class="is-primary" onclick="document.getElementById('dialog-dark').showModal();">
+                            <img src="/images/ms-collapse.svg" alt="MS DOS Collapse Icon">
+                        </button>
+                        <!-- Modal content -->
+                        <dialog class="nes-dialog" id="dialog-dark">
+                            <form method="dialog" style="text-align: center; position: relative; top: 10px;">
+                                <img src="/images/favicon.png" style="width: 25%;">
+                                <p class="title">NETVIEW WEB BROWSER</p>
+                                <p>Designed and Developed
+                                    <p />
+                                    <p>by Jannaee Sick &copy;1985</p>
+                                    <p><a href="https://github.com/jannaee/Netview-express.git" target="_blank">See Code</a></p>
+                                    <button class="nes-btn">close</button>
+                            </form>
+                        </dialog>
+                    </section>
+                </div>
+                <!-- Web Browser Name -->
+                <div class="column column-60">
+                    <h1 id="heroTitle"></h1>
+                </div>
+                <!-- Language Select -->
+                <div class="column column-30">
+                    <div class="column nes-select">
+                        <select style="margin-top: 1px;" required id="language_select" onchange="reloadSiteMapLanguage(); reloadMovieContent();">
+                            <option id="english" value="en_US" selected>English</option>
+                            <option id="pig-latin" value="la_PG">Pig Latin</option>
+                        </select>
+                        <!--
+                        <select style="margin-top: 1px; display:hidden;" required id="default_select">
+                            <option value="" disabled selected hidden>Movie</option>
+                            <option onclick="">Title 1</option>
+                            <option onclick="">Title 2</option>
+                        </select> -->
+                    </div>
+                </div>
+                <!-- End of Header Row -->
+            </div>
+            <!-- End of Header Container -->
+        </div>
+        <!-- End of Header -->
+    </header>
+    <!-- Navigation -->
+    <nav style="white-space: nowrap;">
+        <div class="container">
+            <div class="row">
+                <!-- TO DO: add media query to shrink font for mobile less than 500px -->
+                <ul id="mainNavigation" class="column">
+                    <!--
+                   <li> <a href="#inspiration-panel">Inspiration</a></li>
+                   <li> <a href="#gallery-panel">Gallery</a></li>
+                   <li> <a href="#episodes-panel">Episodes</a></li>
+-->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="divider"></div>
+    <!-- Hero section-->
+    <section class="panel black bg">
+        <div class="container">
+            <div class="row">
+                <!-- hero supportive content -->
+                <div class="column column-30" style="background-color: black; opacity: .9;">
+                    <!--Left Hero Column-->
+                    <section class="teaser-content">
+                        <h5 id="heading" class="spacer-40"></h5>
+                        <p style="text-align: center; padding-bottom: 40px;"><strong>- inspired by -</strong></p>
+                        <figure style="text-align: center; padding-bottom: 20px;">
+                            <img src="./images/stanger-things_raw.png">
+                        </figure>
+                        <!-- <h3 id="heading">Stranger Things in RTP</h3> -->
+                        <p id="description"></p>
+                    </section>
+                </div>
+                <div class="column column-70">
+                    <!--    <figure>
+                        <img src="./images/hero-image-pixelated.jpg">
+                    </figure> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <!-- Inspiration Section -->
+    <section id="inspiration-panel" class="panel white">
+        <h5 id="inspirationHeader">Show Inspiration</h5>
+        <!-- End of Section Title -->
+        <section class="spacer-40 container">
+            <div class="row">
+                <div class="container">
+                    <div class="row">
+                        <div class="column">
+                            <table class="ms-dos-table">
+                                <thead>
+                                    <tr>
+                                        <th><img src="/images/ms-collapse.svg" alt="MS DOS Collapse Icon" class="collapse-icn"></th>
+                                        <th id="translateSubhead" class="ms-file-title">Notepad - DID_YOU_KNOW.TXT</th>
+                                        <th><img src="/images/ms-arrow.svg" alt="MS DOS Collapse Icon" class="down-icn"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="dropdown" style="float:left;">
+                                                <button class="dropbtn">Locations</button>
+                                                <div class="dropdown-content">
+                                                    <ul id="seriesLocations"></ul>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <p class="quotesWindow" id="movieFacts">DID YOU KNOW? <br />
+                                                Stranger things was largely based on actual locations in Durham North Carolina. Select from the list above to see where in Durham this location was inspired from.</p>
+                                            <figure>
+                                                <img src="/images/KerleyRoadDurham.png" id="locationImages">
+                                                <!--  -->
+                                            </figure>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="column column-40">
+                            <table class="ms-dos-table">
+                                <thead>
+                                    <tr>
+                                        <th><img src="/images/ms-collapse.svg" alt="MS DOS Collapse Icon" class="collapse-icn"></th>
+                                        <th id="translateSubhead" class="ms-file-title">Notepad - MOVIE_SNIPPETS.TXT</th>
+                                        <th><img src="/images/ms-arrow.svg" alt="MS DOS Collapse Icon" class="down-icn"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="dropdown" style="float:left;">
+                                                <button class="nes-text is-disabled">Files</button>
+                                                <!-- <div class="dropdown-content" style="display: none; background-color: none;"> -->
+                                                <!-- <ul id="seriesLocations"></ul> -->
+                                                <!-- </div> -->
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <p class="quotesWindow" id="snippetsContent"> <br />
+                                                Stranger Things was largely based on actual locations in Durham North Carolina. Select from the list above to see where in Durham this location was inspired from.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <div class="divider"></div>
+    <!-- Gallery Section -->
+    <section id="gallery-panel">
+        <div class="panel black">
+            <h5 id="galleryHeader">GALLERY</h5>
+            <div class="container spacer-40">
+                <div class="nes-container is-dark with-title row">
+                    <!-- BEGINNING OF NES CONTAINER -->
+                    <div class="column">
+                        <h3 class="title">SLIDE SHOW</h3>
+                        <!-- Left hand column of gallery -->
+                        <div class="quote-wrapper">
+                            <blockquote>
+                                <q id="quoteContent">Uh oh spaghettios, looks like there's no content for you today.</q>
+                                <p id="quoteAuthor">- Chef Boyardee</p>
+                                                        <figure class="spacer-40" id="videoContainer"></figure>
+
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="column column-70">
+
+
+                        <!-- TO DO: Turn into a rotating gallery -->
+                        <div id="galleryimg">
+                        </div>
+                    </div>
+                </div>
+                <!-- END Of NES Container -->
+            </div>
+        </div>
+    </section>
+    <div class="divider"></div>
+    <!-- Episodes Section -->
+    <section id="episodes-panel" class="panel white">
+        <h5 id="episodesHeader">Episodes</h5>
+        <!-- SEASON ONE SECTION   TODO: this to be automatically built with JS -->
+        <div class="container spacer-40">
+            <div class="nes-container with-title row">
+                <div class="container">
+                    <h3 class="title">SEASON <span id="seasonNumber"></span></h3>
+                    <div class="row">
+                        <div class="column">
+                            <div class="nes-table-responsive">
+                                <table id="episodesTable" class="nes-table is-bordered is-centered">
+                                    <thead>
+                                        <tr>
+                                            <th>Episode</th>
+                                            <th>Episode Title</th>
+                                            <th>Rating</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Chapter 1</td>
+                                            <td>The Vanishing of Will Byers</td>
+                                            <td id="episodeRating">8</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Chapter 1</td>
+                                            <td>The Vanishing of Will Byers</td>
+                                            <td id="episodeRating">8</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Chapter 1</td>
+                                            <td>The Vanishing of Will Byers</td>
+                                            <td id="episodeRating">8</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <div class="divider"></div>
+    <footer>
+        <section>
+            <nav class="container">
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/jannaeesick" target="_blank">
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/jannaee" target="_blank">
+                            Linkedin
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/jannaee" target="_blank">
+                            Github
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">&copy;1985 Jannaee Sick</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+    <!-- JS Files -->
+    <script src="scripts/loadgeneral.js"></script>
+    <script src="scripts/loadmovies.js"></script>
+</body>
+
+</html>
