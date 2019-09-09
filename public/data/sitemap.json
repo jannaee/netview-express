@@ -1,8 +1,59 @@
 {
-    "hero":{"title": "NETVIEW WEB BROWSER v1.0","mainNavigation": ["Inspiration","Gallery","Episodes"]},
-    "inspiration":{"title": "SHOW INSPIRATION",
-        "subheading": "Notepad - DID_YOU_KNOW.TXT",
-        "description": "DID YOU KNOW? Stranger things was largely based on actual locations in Durham North Carolina. Select from the list above to see where in Durham this location was inspired from."},
-    "gallerypanel":{"title": "GALLERY"},
-    "episodespanel":{"title": "EPISODES"}
+  "hero": {
+    "hero.topTitleAutoVal": "Netview | Welcome to the future",
+    "hero.titleAutoVal": "NETVIEW WEB BROWSER v1.0",
+    "mainNavigation": [
+      "Inspiration",
+      "Gallery",
+      "Episodes"
+    ],
+    "modal": {
+      "altText": "MS DOS Collapse Icon",
+      "modal.titleAutoVal": "NETVIEW WEB BROWSER",
+      "modal.authorAccoladesAutoVal": "Designed and Developed",
+      "modal.authorAutoVal": "by Jannaee Sick &copy;1985",
+      "modal.codePointerTextAutoVal": "See Code"
+    }
+  },
+  "inspiration": {
+    "inspiration.titleAutoVal": "SHOW INSPIRATION",
+    "inspiration.subheadingAutoVal": "Notepad - DID_YOU_KNOW.TXT",
+    "inspiration.movieFactsAutoVal": "DID YOU KNOW? Stranger things was largely based on actual locations in Durham North Carolina. Select from the list above to see where in Durham this location was inspired from.",
+    "inspiration.byAutoVal": "- inspired by -",
+    "inspiration.locationTxtAutoVal": "Locations",
+    "inspiration.snippitSubheadingAutoVal": "Notepad - MOVIE_SNIPPETS.TXT",
+    "inspiration.snippitFileSubheadingAutoVal": "Files"
+  },
+  "gallerypanel": {
+    "gallerypanel.galleryHeaderAutoVal": "GALLERY",
+    "gallerypanel.slideShowAutoVal": "SLIDE SHOW"
+  },
+  "episodespanel": {
+    "episodespanel.episodesHeaderAutoVal": "EPISODES",
+    "episodespanel.seasonsPrefixAutoVal": "SEASON <span id=\"seasonNumber\"></span>",
+    "episodespanel.season1TxtAutoVal": "#1",
+    "episodespanel.season2TxtAutoVal": "#2",
+    "episodespanel.season3TxtAutoVal": "#3",
+    "episodespanel.season4TxtAutoVal": "#4",
+    "episodespanel.episodeSeasonColumnNameAutoVal": "Episode",
+    "episodespanel.episodeNameColumnNameAutoVal": "Episode Title",
+    "episodespanel.episodeRatingColumnNameAutoVal": "Rating"
+  },
+  "footer": {
+    "footer.copyrightHTMLAutoVal": "&copy 1985 Jannaee Sick",
+    "social": [
+      {
+        "link": "https://twitter.com/jannaeesick",
+        "name": "Twitter"
+      },
+      {
+        "link": "https://linkedin.com/jannaee",
+        "name": "Linked In"
+      },
+      {
+        "link": "https://github.com/jannaee",
+        "name": "Github"
+      }
+    ]
+  }
 }

@@ -100,9 +100,6 @@ async function author() {
         let quoteAuthor = document.getElementById('quoteAuthor').innerHTML = `\&mdash; ${response[0].author}`;
         let quote = document.getElementById('quoteContent').innerHTML = `${response[0].text}`;
     })
-
-
-
 }
 
 /************* Video Section ****************/
@@ -111,7 +108,6 @@ async function author() {
 async function videoPlayer() {
     let videoUrl = createUrl("http://localhost:3000", "tt4574334", getLanguageSelect(), "$.videoembed");
     let videoResults = fetchAndProcess(videoUrl).then(response => {
-        console.log(response[0]);
         let videoLink = document.getElementById('videoContainer').innerHTML = `
 
 
@@ -169,7 +165,6 @@ async function episodesList() {
 
 
               // `
-                console.table(episodes, episodes.name, )
             }
         )
     });

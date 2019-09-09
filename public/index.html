@@ -5,16 +5,12 @@
     <link rel="shortcut icon" href="favicon.ico" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Netview | Welcome to the future.</title>
+    <title id="hero.topTitleAutoVal"></title>
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css" rel="stylesheet">
     <link href="https://unpkg.com/nes.css@2.2.0/css/nes.min.css" rel="stylesheet" />
-<<<<<<< HEAD:public/index.html
     <link href="./stylesheets/main.css" rel="stylesheet">
-=======
-    <link href="styles/main.css" rel="stylesheet">
->>>>>>> 129c2315cfb3a3f612ebc2af84ec988aa11797f0:index.html
 </head>
 
 <body>
@@ -32,11 +28,10 @@
                         <dialog class="nes-dialog" id="dialog-dark">
                             <form method="dialog" style="text-align: center; position: relative; top: 10px;">
                                 <img src="/images/favicon.png" style="width: 25%;">
-                                <p class="title">NETVIEW WEB BROWSER</p>
-                                <p>Designed and Developed
-                                    <p />
-                                    <p>by Jannaee Sick &copy;1985</p>
-                                    <p><a href="https://github.com/jannaee/Netview-express.git" target="_blank">See Code</a></p>
+                                <p class="title" id="modal.titleAutoVal"></p>
+                                <p id="modal.authorAccoladesAutoVal"><p />
+                                    <p id="modal.authorAutoVal"></p>
+                                    <p><a href="https://github.com/jannaee/Netview-express.git" target="_blank" id="modal.codePointerTextAutoVal"></a></p>
                                     <button class="nes-btn">close</button>
                             </form>
                         </dialog>
@@ -44,7 +39,7 @@
                 </div>
                 <!-- Web Browser Name -->
                 <div class="column column-60">
-                    <h1 id="heroTitle"></h1>
+                    <h1 id="hero.titleAutoVal"></h1>
                 </div>
                 <!-- Language Select -->
                 <div class="column column-30">
@@ -92,7 +87,7 @@
                     <!--Left Hero Column-->
                     <section class="teaser-content">
                         <h5 id="heading" class="spacer-40"></h5>
-                        <p style="text-align: center; padding-bottom: 40px;"><strong>- inspired by -</strong></p>
+                        <p style="text-align: center; padding-bottom: 40px;"><strong id="inspiration.byAutoVal">- inspired by -</strong></p>
                         <figure style="text-align: center; padding-bottom: 20px;">
                             <img src="./images/stanger-things_raw.png">
                         </figure>
@@ -111,7 +106,7 @@
     <div class="divider"></div>
     <!-- Inspiration Section -->
     <section id="inspiration-panel" class="panel white">
-        <h5 id="inspirationHeader">Show Inspiration</h5>
+        <h5 id="inspiration.titleAutoVal"></h5>
         <!-- End of Section Title -->
         <section class="spacer-40 container">
             <div class="row">
@@ -122,7 +117,7 @@
                                 <thead>
                                     <tr>
                                         <th><img src="/images/ms-collapse.svg" alt="MS DOS Collapse Icon" class="collapse-icn"></th>
-                                        <th id="translateSubhead" class="ms-file-title">Notepad - DID_YOU_KNOW.TXT</th>
+                                        <th id="inspiration.subheadingAutoVal" class="ms-file-title"></th>
                                         <th><img src="/images/ms-arrow.svg" alt="MS DOS Collapse Icon" class="down-icn"></th>
                                     </tr>
                                 </thead>
@@ -130,7 +125,7 @@
                                     <tr>
                                         <td colspan="3">
                                             <div class="dropdown" style="float:left;">
-                                                <button class="dropbtn">Locations</button>
+                                                <button class="dropbtn" id="inspiration.locationTxtAutoVal"></button>
                                                 <div class="dropdown-content">
                                                     <ul id="seriesLocations"></ul>
                                                 </div>
@@ -139,8 +134,7 @@
                                     </tr>
                                     <tr>
                                         <td colspan="3">
-                                            <p class="quotesWindow" id="movieFacts">DID YOU KNOW? <br />
-                                                Stranger things was largely based on actual locations in Durham North Carolina. Select from the list above to see where in Durham this location was inspired from.</p>
+                                            <p class="quotesWindow" id="inspiration.movieFactsAutoVal"></p>
                                             <figure>
                                                 <img src="/images/KerleyRoadDurham.png" id="locationImages">
                                                 <!--  -->
@@ -155,7 +149,7 @@
                                 <thead>
                                     <tr>
                                         <th><img src="/images/ms-collapse.svg" alt="MS DOS Collapse Icon" class="collapse-icn"></th>
-                                        <th id="translateSubhead" class="ms-file-title">Notepad - MOVIE_SNIPPETS.TXT</th>
+                                        <th id="inspiration.snippitSubheadingAutoVal" class="ms-file-title"></th>
                                         <th><img src="/images/ms-arrow.svg" alt="MS DOS Collapse Icon" class="down-icn"></th>
                                     </tr>
                                 </thead>
@@ -163,7 +157,7 @@
                                     <tr>
                                         <td colspan="3">
                                             <div class="dropdown" style="float:left;">
-                                                <button class="nes-text is-disabled">Files</button>
+                                                <button class="nes-text is-disabled" id="inspiration.snippitFileSubheadingAutoVal"></button>
                                                 <!-- <div class="dropdown-content" style="display: none; background-color: none;"> -->
                                                 <!-- <ul id="seriesLocations"></ul> -->
                                                 <!-- </div> -->
@@ -188,19 +182,18 @@
     <!-- Gallery Section -->
     <section id="gallery-panel">
         <div class="panel black">
-            <h5 id="galleryHeader">GALLERY</h5>
+            <h5 id="gallerypanel.galleryHeaderAutoVal"></h5>
             <div class="container spacer-40">
                 <div class="nes-container is-dark with-title row">
                     <!-- BEGINNING OF NES CONTAINER -->
                     <div class="column">
-                        <h3 class="title">SLIDE SHOW</h3>
+                        <h3 class="title" id="gallerypanel.slideShowAutoVal"></h3>
                         <!-- Left hand column of gallery -->
                         <div class="quote-wrapper">
                             <blockquote>
                                 <q id="quoteContent">Uh oh spaghettios, looks like there's no content for you today.</q>
                                 <p id="quoteAuthor">- Chef Boyardee</p>
                                                         <figure class="spacer-40" id="videoContainer"></figure>
-
                             </blockquote>
                         </div>
                     </div>
@@ -219,21 +212,21 @@
     <div class="divider"></div>
     <!-- Episodes Section -->
     <section id="episodes-panel" class="panel white">
-        <h5 id="episodesHeader">Episodes</h5>
+        <h5 id="episodespanel.episodesHeaderAutoVal"></h5>
         <!-- SEASON ONE SECTION   TODO: this to be automatically built with JS -->
         <div class="container spacer-40">
             <div class="nes-container with-title row">
                 <div class="container">
-                    <h3 class="title">SEASON <span id="seasonNumber"></span></h3>
+                    <h3 class="title" id="episodespanel.seasonsPrefixAutoVal"></h3>
                     <div class="row">
                         <div class="column">
                             <div class="nes-table-responsive">
                                 <table id="episodesTable" class="nes-table is-bordered is-centered">
                                     <thead>
                                         <tr>
-                                            <th>Episode</th>
-                                            <th>Episode Title</th>
-                                            <th>Rating</th>
+                                            <th id="episodespanel.episodeSeasonColumnNameAutoVal"></th>
+                                            <th id="episodespanel.episodeNameColumnNameAutoVal"></th>
+                                            <th id="episodespanel.episodeRatingColumnNameAutoVal"></th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -283,20 +276,13 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">&copy;1985 Jannaee Sick</a>
+                        <a href="#" id="footer.copyrightHTMLAutoVal"></a>
                     </li>
                 </ul>
             </nav>
         </section>
     </footer>
-    <!-- JS Files -->
-<<<<<<< HEAD:public/index.html
     <script src="./javascripts/loadgeneral.js"></script>
     <script src="./javascripts/loadmovies.js"></script>
-=======
-    <script src="scripts/loadgeneral.js"></script>
-    <script src="scripts/loadmovies.js"></script>
->>>>>>> 129c2315cfb3a3f612ebc2af84ec988aa11797f0:index.html
 </body>
-
 </html>

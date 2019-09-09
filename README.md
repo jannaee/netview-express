@@ -12,7 +12,7 @@ Netview is a concept web browser inspired from the questions above. I imagined t
 3. Run `npm start`, the app is now listening on port 3000 (Make sure you are not running anything on port 3000)
 4. Navigate to `http://localhost:3000/`in your browser, and experience the future.
 
-***Special Note: Sneak peek into this application with no content visit: [Neview on Netlify](https://netview.netlify.com). This is a dev environment without the server working so this will only show you what the site looks like with no data loaded.  
+***Special Note: Sneak peek into this application with no content visit: [Neview on Netlify](https://netview.netlify.com). This is a dev environment without the server working so this will only show you what the site looks like with no data loaded.
 
 ## Files
 I have included a directory called wireframes to show some of the design and process behind developing this web application.
@@ -25,7 +25,9 @@ I think of web development much like painting or sculpting. Your work is never r
 [ ] Clean up the design for the drop down menus
 [ ] Restructure work for optimal semantics
 [ ] Rebuild in with Aframe - 3D framework
-[ ] Sync up to Netlify
+[ ] Have hosted on AWS
+[ ] Implement draggable features to emmulate collpasible windows on ms dos from https://shopify.github.io/draggable/
+
 
 
 ## Closing remarks
