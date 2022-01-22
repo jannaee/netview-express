@@ -12,6 +12,6 @@
     "cors": "^2.8.5",
     "morgan": "~1.9.1",
     "jsonpath": "^1.0.2",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^3.1.1"
   }
 }
